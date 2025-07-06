@@ -1,0 +1,16 @@
+#include <iostream> 
+using namespace std; 
+
+int main() 
+{ 
+    // Declaramos una variable de tipo 'long long' llamada 'x'
+    // Este tipo puede almacenar enteros grandes de hasta 64 bits
+    long long x = 9223372036854775807;
+
+    // Imprime el valor almacenado en la variable 'x'
+    // En este caso, imprimirá: 9223372036854775807
+    cout << x << endl;
+
+    // Fin del programa, retorna 0 para indicar que terminó correctamente
+    return 0;
+}
