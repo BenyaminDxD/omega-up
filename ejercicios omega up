@@ -1,3 +1,7 @@
+Descripción Imprime una variable con valor: 9223372036854775807.
+Intentelo con una variable int y despues con long(long, no long long).
+Salida 9223372036854775807
+
 #include <iostream> 
 using namespace std; 
 
@@ -12,5 +16,23 @@ int main()
     cout << x << endl;
 
     // Fin del programa, retorna 0 para indicar que terminó correctamente
+    return 0;
+}
+Descripción
+Eres miembros del Grupo de Algoritmia y Programación Competitiva del Cetis 120 (GAPCC120) de 6to semestre por lo que estás por dejar el club así que ya tienes que decir "Adios CETIS 120".
+Entrada
+No hay entrada
+Salida
+Una sola línea con la frase "Adios CETIS 120". Sin comillas.
+
+#include <iostream>  
+using namespace std; 
+
+int main() 
+{ 
+    // Imprimimos en pantalla la frase solicitada exactamente como se pide
+    cout << "Adios CETIS 120" << endl;
+
+    // Finalizamos el programa devolviendo 0, lo cual indica que todo salió bien
     return 0;
 }
